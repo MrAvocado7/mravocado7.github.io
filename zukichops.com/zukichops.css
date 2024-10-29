@@ -1,4 +1,4 @@
-/* Style for the header to fix it at the top */
+/* Make the header stick to the top */
 header {
     position: fixed;
     top: 0;
@@ -10,21 +10,20 @@ header {
     z-index: 1000; /* Ensures the header stays on top */
 }
 
-/* Style the links */
+/* Style links in the navigation */
 header nav a {
-    color: white; /* White text color */
-    text-decoration: none; /* Remove underline */
-    padding: 10px 15px; /* Space around each link */
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
     display: inline-block;
 }
 
-/* Change link color on hover */
+/* Hover effect for links */
 header nav a:hover {
-    background-color: #555; /* Darker shade on hover */
-    color: white;
+    background-color: #555; /* Darker color on hover */
 }
 
-/* Add space below the header to prevent overlap with content */
+/* Add top padding to body to prevent content from hiding under the fixed header */
 body {
-    padding-top: 50px; /* Adjust this value based on the height of your header */
+    padding-top: 60px; /* Adjust this to match the header’s height */
 }
