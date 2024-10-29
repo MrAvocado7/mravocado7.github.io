@@ -23,7 +23,12 @@ header nav a:hover {
     background-color: #555; /* Darker color on hover */
 }
 
-/* Add top padding to body to prevent content from hiding under the fixed header */
+/* Add extra space to the body for the navigation bar and more */
 body {
-    padding-top: 60px; /* Adjust this to match the header’s height */
+    padding-top: 100px; /* Extra padding to push content lower */
+}
+
+/* Optionally add margin to the first section */
+#home {
+    margin-top: 40px;
 }
