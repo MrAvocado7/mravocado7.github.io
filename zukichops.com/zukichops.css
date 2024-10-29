@@ -29,6 +29,6 @@ body {
 }
 
 /* Optionally add margin to the first section */
-#home {
+section {
     margin-top: 40px;
 }
