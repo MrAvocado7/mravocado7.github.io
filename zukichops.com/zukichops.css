@@ -11,7 +11,8 @@ header {
 }
 
 .logo {
-    height: 20px; /* Adjust the height as needed */
+    position: fixed;
+    height: 40px; /* Adjust the height as needed */
     width: auto;  /* Maintain aspect ratio */
 }
 
