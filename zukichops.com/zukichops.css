@@ -13,20 +13,18 @@ header {
 .logo {
     height: 50px; /* Adjust the height as needed */
     width: auto;  /* Maintain aspect ratio */
-    margin-right: 20px;
 }
 
-/* Style links in the navigation */
-header nav a {
+/* Styling for navigation links */
+.nav-links a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
 }
 
-/* Hover effect for links */
-header nav a:hover {
-    background-color: #555; /* Darker color on hover */
+.nav-links a:hover {
+    background-color: #555;
 }
 
 /* Add extra space to the body for the navigation bar and more */
