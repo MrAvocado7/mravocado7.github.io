@@ -3,8 +3,8 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333; /* Dark background */
-    color: white; /* White text */
+    background-color: #FFED00;
+    color: black;
     padding: 10px 0;
     text-align: center;
     z-index: 1000; /* Ensures the header stays on top */
