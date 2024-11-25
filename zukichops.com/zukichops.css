@@ -5,8 +5,10 @@ body, html {
 }
 
 /* Make the header stick to the top */
-header {
-    position: fixed;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     top: 0;
     width: 100%;
     background-color: #FFED00;
