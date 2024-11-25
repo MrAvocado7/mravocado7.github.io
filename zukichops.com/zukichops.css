@@ -14,7 +14,7 @@ body, html {
     width: 100%;
     background-color: #FFED00;
     z-index: 1000; /* Ensures the header stays on top */
-    padding: 10px 0;
+    padding: 5px 0;
     transition: transform 0.3s ease-in-out; /* Smooth hiding */
 }
 
@@ -34,7 +34,7 @@ body, html {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    padding: 10px 15px;
+    padding: 12px 15px;
     font-size: 30px;
     flex: 1; /* Equal space for links */
 }
@@ -51,7 +51,7 @@ body, html {
 }
 
 .logo {
-    height: 120px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
     width: auto; /* Maintain aspect ratio */
 }
 
