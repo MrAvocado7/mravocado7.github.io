@@ -1,7 +1,7 @@
 /* basic reset */
 body, html {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Make the header stick to the top */
@@ -21,32 +21,30 @@ body, html {
 
 .logo-container{
     text-align: center;
-    background-color: #444;
     padding: 5px 0;
 }
 
 .logo {
-    position: fixed;
     height: 50px; /* Adjust the height as needed */
     width: auto;  /* Maintain aspect ratio */
 }
 
 /* Styling for navigation links */
-.nav-bar {
+.nav-links {
     display: flex;
     justify-content: center;
     background-color: #333;
     padding: 10px 0;
 }
 
-.nav-bar a {
+.nav-links a {
     color: white;
     text-decoration: none;
     padding: 10px 15px;
     display: inline-block;
 }
 
-.nav-bar a:hover {
+.nav-links a:hover {
     background-color: #555;
 }
 
@@ -57,7 +55,7 @@ body {
 
 /* Optionally add margin to the first section */
 section {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 /*hidden header on scroll*/
