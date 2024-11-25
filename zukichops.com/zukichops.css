@@ -57,7 +57,7 @@ body, html {
 
 /* Add extra space for the fixed header */
 body {
-    padding-top: 100px; /* Extra padding to push content lower */
+    padding-top: 120px; /* Extra padding to push content lower */
 }
 
 /* Optionally add margin to the first section */
