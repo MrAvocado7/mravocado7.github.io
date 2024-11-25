@@ -12,8 +12,11 @@
     <header>
         <nav>
             <a href="zukichops.html">
+            <header class="header">
+            <div class="logo-container">
                 <img src="images/logo.png" alt="Barber Shop Logo" class="logo">
-            </a>
+            </div>
+
             <div class="nav-links">
             <a href="zukichops.html">Home</a>
             <a href="services.html">Services</a>
@@ -80,5 +83,20 @@
     <footer>
         <p>&copy; 2024 ZukiChops</p>
     </footer>
+    <script>
+        let lastScrollY = window.scrollY;
+        const header = document.querySelector('.header');
+    
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > lastScrollY) {
+                // Scrolling down - hide the header
+                header.classList.add('hidden');
+            } else {
+                // Scrolling up - show the header
+                header.classList.remove('hidden');
+            }
+            lastScrollY = window.scrollY;
+        });
+    </script>    
 </body>
 </html>
