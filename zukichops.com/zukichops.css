@@ -44,6 +44,19 @@ body, html {
     color: white;
 }
 
+/* increase size for links */
+.nav-links a[href="services.html"] {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links a[href="contact.html"] {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
 /* Logo styling */
 .logo-link {
     flex: 1; /* Keeps the logo centered */
@@ -51,7 +64,7 @@ body, html {
 }
 
 .logo {
-    height: 150px; /* Adjust the size as needed */
+    height: 125px; /* Adjust the size as needed */
     width: auto; /* Maintain aspect ratio */
 }
 
