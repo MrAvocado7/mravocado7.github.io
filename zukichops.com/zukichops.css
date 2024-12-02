@@ -22,6 +22,7 @@ body, html {
 /* Navigation bar layout */
 .nav-links {
     display: flex;
+    flex: 1;
     justify-content: space-between; /* Spread links across the header */
     align-items: center;
     width: 100%; /* Spread across full width */
@@ -36,7 +37,7 @@ body, html {
     text-align: center;
     padding: 12px 15px;
     font-size: 30px;
-    flex: 1; /* Equal space for links */
+    flex-grow: 1; /* Equal space for links */
 }
 .nav-links a:hover {
     background-color: #555;
@@ -55,7 +56,7 @@ body, html {
 }
 /* Logo styling */
 .logo-link {
-    flex: 1; /* Keeps the logo centered */
+    flex-shrink: 0; /* Keeps the logo centered */
     text-align: center;
 }
 .logo {
@@ -98,6 +99,32 @@ section {
 .gallery-grid img:hover {
     transform: scale(1.10); /* Slight zoom effect on hover */
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-page {
+    text-align: center;
+    color: white;
+    background-color: #333; /* Dark background for the page */
+    padding: 30px;
+}
+
+.contact-page h1, .contact-page h2 {
+    margin: 10px 0;
+    color: #FFED00; /* Highlighted headings */
+}
+
+.contact-page p {
+    margin: 5px 0;
+}
+
+.contact-page a {
+    color: #FFED00;
+    text-decoration: none;
+}
+
+.contact-page a:hover {
+    text-decoration: underline;
+    color: #ffffff;
 }
 /* Modal styling */
 .modal {
