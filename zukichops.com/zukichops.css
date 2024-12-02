@@ -127,7 +127,8 @@ section {
     color: #ffffff;
 }
 
-.contact-page img {
+.contact-page .social-link img {
     height: 20px;
-    width: 20px;
+    width: auto;
+    max-width: 100%;
 }
