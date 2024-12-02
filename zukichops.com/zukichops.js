@@ -1,16 +1,14 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let lastScrollY = window.scrollY;
-    const header = document.querySelector('.header');
+function openModal(img) {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("expandedImg");
+    const caption = document.getElementById("caption");
 
-    window.addEventListener('scroll', () => {
-        console.log(`Scroll Y: ${window.scrollY}, Last Scroll Y: ${lastScrollY}`); // Debug
-        if (window.scrollY > lastScrollY) {
-            console.log('Hiding header');
-            header.classList.add('hidden');
-        } else {
-            console.log('Showing header');
-            header.classList.remove('hidden');
-        }
-        lastScrollY = window.scrollY;
-    });
-});
+    modal.style.display = "block"; // Show the modal
+    modalImg.src = img.src; // Set the modal image source
+    caption.innerHTML = img.alt; // Set the caption from the image's alt
+}
+
+function closeModal() {
+    const modal = document.getElementById("imageModal");
+    modal.style.display = "none"; // Hide the modal
+}
