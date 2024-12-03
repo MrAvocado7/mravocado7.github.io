@@ -139,3 +139,24 @@ section {
     max-width: 100%;
     margin-right: 10px;
 }
+/* Style for the "Book Now" button */
+.book-now {
+    background-color: whitesmoke; /* Bright yellow */
+    color: #333; /* Dark text for contrast */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.book-now:hover {
+    background-color: red; /* Slightly darker yellow on hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+.book-now:active {
+    background-color: red; /* Even darker yellow when pressed */
+    transform: scale(0.95); /* Slightly smaller when clicked */
+}
