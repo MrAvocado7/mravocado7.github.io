@@ -115,10 +115,10 @@ section {
 
 .contact-page p {
     margin: 5px 0;
+    color: white;
 }
 
 .contact-page a {
-    color: #FFED00;
     text-decoration: none;
 }
 
