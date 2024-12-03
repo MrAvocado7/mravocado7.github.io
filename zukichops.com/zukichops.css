@@ -60,7 +60,7 @@ body, html {
     text-align: center;
 }
 .logo {
-    height: 125px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
     width: auto; /* Maintain aspect ratio */
 }
 /* Add extra space for the fixed header */
