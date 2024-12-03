@@ -119,6 +119,12 @@ section {
 }
 
 .contact-page a {
+    color: yellow;
+    text-decoration: none;
+}
+
+.contact-page a:visited {
+    color: yellow;
     text-decoration: none;
 }
 
