@@ -160,3 +160,47 @@ section {
     background-color: red; /* Even darker yellow when pressed */
     transform: scale(0.95); /* Slightly smaller when clicked */
 }
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    /* Stack header elements */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack navigation links vertically */
+        gap: 10px;
+    }
+
+    .nav-links a {
+        padding: 10px; /* Make links touch-friendly */
+        font-size: 16px; /* Increase font size for readability */
+    }
+
+    .logo {
+        height: 40px; /* Scale down logo */
+    }
+
+    /* Add padding to avoid overlap with header */
+    body {
+        padding-top: 80px; /* Ensure content isn't hidden behind fixed header */
+    }
+}
+
+
+/* Adjust gallery for smaller screens */
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
+        gap: 10px; /* Adjust spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for very small screens */
+    }
+}
