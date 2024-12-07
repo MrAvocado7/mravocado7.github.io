@@ -161,35 +161,31 @@ section {
     transform: scale(0.95); /* Slightly smaller when clicked */
 }
 
-/* Mobile-specific styles */
+/* Mobile-specific Layout */
 @media (max-width: 768px) {
-    /* Stack header elements */
     .header {
         flex-direction: column;
-        align-items: center;
         text-align: center;
     }
 
     .nav-links {
-        flex-direction: column; /* Stack navigation links vertically */
+        display: flex;
+        flex-direction: column;
         gap: 10px;
-    }
-
-    .nav-links a {
-        padding: 10px; /* Make links touch-friendly */
-        font-size: 16px; /* Increase font size for readability */
+        order: 2; /* Push navigation links below the logo */
     }
 
     .logo {
-        height: 40px; /* Scale down logo */
+        height: 40px;
+        margin-bottom: 10px; /* Add spacing below the logo */
+        order: 1; /* Ensure the logo is always first */
     }
 
-    /* Add padding to avoid overlap with header */
-    body {
-        padding-top: 80px; /* Ensure content isn't hidden behind fixed header */
+    .nav-links a {
+        font-size: 16px;
+        padding: 10px; /* Make links easier to tap */
     }
 }
-
 
 /* Adjust gallery for smaller screens */
 @media (max-width: 768px) {
