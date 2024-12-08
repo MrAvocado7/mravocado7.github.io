@@ -255,6 +255,7 @@ section {
     border-radius: 10px; /* Rounded corners for style */
     text-align: center; /* Center the text */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+
 }
 
 .cut-prices h3 {
