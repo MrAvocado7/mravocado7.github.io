@@ -158,6 +158,11 @@ section {
     max-width: 100%;
     margin-right: 10px;
 }
+
+.social-link p {
+    color: white;
+}
+
 /* Style for the "Book Now" button */
 .book-now {
     background-color: whitesmoke; /* Bright yellow */
