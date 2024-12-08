@@ -71,6 +71,25 @@ body {
 section {
     margin-top: 30px;
 }
+
+/* Grid container for main sections */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
+    gap: 20px; /* Spacing between sections */
+    padding: 20px;
+}
+
+/* Individual section styling */
+.grid-container section {
+    background-color: #444; /* Slightly lighter background */
+    color: white; /* Text color for contrast */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Depth effect */
+    text-align: center; /* Center-align text in each section */
+}
+
 /* Services page gallery styling */
 .services-gallery {
     padding: 20px;
