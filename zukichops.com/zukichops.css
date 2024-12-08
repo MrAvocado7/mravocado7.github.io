@@ -228,12 +228,12 @@ section {
 /* Adjust image size and spacing for mobile screens */
 @media (max-width: 768px) {
     .gallery-grid img {
-        width: 80%; /* Reduce image width */
+        width: 100%; /* Reduce image width */
         max-width: 150px; /* Ensure it doesn’t get too large */
         margin: 10px auto; /* Add spacing and center the images */
     }
 
     .gallery-grid {
-        gap: 15px; /* Reduce gap between images */
+        gap: 10px; /* Reduce gap between images */
     }
 }
