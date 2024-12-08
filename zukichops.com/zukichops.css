@@ -260,7 +260,7 @@ section {
 .cut-prices h3 {
     font-size: 1.5rem; /* Emphasize the heading */
     margin-bottom: 10px; /* Add spacing below the heading */
-    color: #FFED00; /* Highlight the heading */
+    color: white;
 }
 
 .cut-prices ul {
