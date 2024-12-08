@@ -152,15 +152,21 @@ section {
     color: #ffffff;
 }
 
-#contact-page .social-link img {
+#contact-page .social-link {
+    display: flex;
+    align-items: center;
+}
+
+.social-link img {
     height: 30px;
     width: auto;
     max-width: 100%;
     margin-right: 10px;
 }
 
-.social-link p {
+.social-link span {
     color: white;
+    white-space: nowrap;
 }
 
 /* Style for the "Book Now" button */
