@@ -246,3 +246,29 @@ section {
         gap: 10px; /* Reduce gap between images */
     }
 }
+
+.cut-prices {
+    background-color: #555; /* Slightly darker background for contrast */
+    color: white; /* White text for readability */
+    padding: 20px; /* Add spacing inside the section */
+    margin: 20px 0; /* Add spacing above and below */
+    border-radius: 10px; /* Rounded corners for style */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.cut-prices h3 {
+    font-size: 1.5rem; /* Emphasize the heading */
+    margin-bottom: 10px; /* Add spacing below the heading */
+    color: #FFED00; /* Highlight the heading */
+}
+
+.cut-prices ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.cut-prices li {
+    font-size: 1rem;
+    margin: 5px 0; /* Add spacing between items */
+}
