@@ -130,16 +130,19 @@ section {
 .contact-page h1, .contact-page h2 {
     margin: 10px 0;
     color: #FFED00; /* Highlighted headings */
+    padding-left: 10px;
 }
 
 .contact-page p {
     margin: 5px 0;
     color: white;
+    padding-left: 10px;
 }
 
 .contact-page a {
     color: yellow;
     text-decoration: none;
+    padding-left: 10px;
 }
 
 .contact-page a:visited {
